@@ -134,8 +134,6 @@ public class PhotoMenu extends MenuController
         if (group.findPreference(CameraSettings.KEY_CAMERA_HDR) != null) {
             mHdrSwitcher.setVisibility(View.VISIBLE);
             initSwitchItem(CameraSettings.KEY_CAMERA_HDR, mHdrSwitcher);
-        } else {
-            mHdrSwitcher.setVisibility(View.INVISIBLE);
         }
 
         mOtherKeys = new String[] {
