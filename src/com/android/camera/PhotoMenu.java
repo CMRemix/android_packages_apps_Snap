@@ -139,6 +139,7 @@ public class PhotoMenu extends MenuController
         }
 
         mOtherKeys = new String[] {
+                CameraSettings.KEY_SELFIE_FLASH,
                 CameraSettings.KEY_FLASH_MODE,
                 CameraSettings.KEY_RECORD_LOCATION,
                 CameraSettings.KEY_PICTURE_SIZE,
